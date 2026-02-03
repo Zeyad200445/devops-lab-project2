@@ -10,6 +10,8 @@ pipeline {
                 // Jenkins automatically pulls code from the Webhook trigger
                 echo 'Checking out code...'
             }
+
+            
         }
         stage('Build Docker Image') {
             steps {
